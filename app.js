@@ -17,6 +17,12 @@ const projects = [
     image: "./base-apparel-coming-soon-master/design/desktop-design.jpg",
     link: "./base-apparel-coming-soon-master/index.html",
   },
+
+  {
+    title: "single price grid component master",
+    image: "./single-price-grid-component-master/design/desktop-design.jpg",
+    link: "./single-price-grid-component-master/index.html",
+  },
 ];
 
 const mainSection = document.querySelector(".section-center");

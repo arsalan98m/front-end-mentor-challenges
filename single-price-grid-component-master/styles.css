@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #dedede;
+}
+.main {
+  /* border: 5px solid green; */
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  width: 95vw;
+  max-width: 1170px;
+  margin: 2rem auto;
+}
+
+.box-1 {
+  background-color: white;
+  border-top-left-radius: 0.35rem;
+  border-top-right-radius: 0.35rem;
+  padding: 2rem;
+}
+
+.box-1 h4 {
+  margin-bottom: 2rem;
+  color: hsl(179, 62%, 43%);
+  font-size: 1.2rem;
+}
+
+.box-1 p {
+  max-width: 18rem;
+  margin-bottom: 2rem;
+}
+
+.box-1 p {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+.box-1 :last-child {
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+}
+
+.box-2 {
+  background-color: hsl(179, 69%, 37%);
+  padding: 2rem;
+  border-bottom: 4px solid hsl(179, 69%, 37%);
+}
+
+.box-2 h4 {
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.box-2 .dollar {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+
+.box-2 .dollar span {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: rgb(20, 235, 235);
+}
+
+.box-2 p {
+  color: white;
+  margin-bottom: 0.26rem;
+}
+
+.box-2 .btn {
+  padding: 1.2rem;
+  width: 100%;
+  margin-top: 1.2rem;
+  border-radius: 0.25rem;
+  background: hsl(71, 73%, 54%);
+  color: white;
+  border: transparent;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.box-3 {
+  background: hsl(179, 62%, 43%);
+  padding: 2rem;
+
+  border-bottom-right-radius: 0.35rem;
+}
+
+.box-3 h5 {
+  margin-bottom: 2rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.box-3 p {
+  color: white;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1170px) {
+  .main-center {
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+
+  .article-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .box-2 {
+    border-bottom-left-radius: 0.35rem;
+  }
+
+  .box-1 p {
+    max-width: 35rem;
+    margin-bottom: 2rem;
+  }
+}
