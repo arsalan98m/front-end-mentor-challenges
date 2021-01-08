@@ -23,6 +23,12 @@ const projects = [
     image: "./single-price-grid-component-master/design/desktop-design.jpg",
     link: "./single-price-grid-component-master/index.html",
   },
+
+  {
+    title: "ping coming soon page master",
+    image: "./ping-coming-soon-page-master/design/desktop-design.jpg",
+    link: "./ping-coming-soon-page-master/index.html",
+  },
 ];
 
 const mainSection = document.querySelector(".section-center");
