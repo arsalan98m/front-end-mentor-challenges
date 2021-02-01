@@ -29,6 +29,14 @@ const projects = [
     image: "./ping-coming-soon-page-master/design/desktop-design.jpg",
     link: "./ping-coming-soon-page-master/index.html",
   },
+
+  {
+    title: "huddle landing page with alternating feature blocks master",
+    image:
+      "./huddle-landing-page-with-alternating-feature-blocks-master/design/desktop-design.jpg",
+    link:
+      "./huddle-landing-page-with-alternating-feature-blocks-master/index.html",
+  },
 ];
 
 const mainSection = document.querySelector(".section-center");
